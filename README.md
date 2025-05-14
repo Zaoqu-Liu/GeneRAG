@@ -12,14 +12,6 @@ GeneRAG is a specialized Retrieval-Augmented Generation (RAG) system designed fo
 
 ## Installation
 
-### From PyPI (recommended)
-
-```bash
-pip install generag
-```
-
-### From GitHub
-
 ```bash
 git clone https://github.com/Zaoqu-Liu/GeneRAG
 cd GeneRAG
