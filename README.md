@@ -26,7 +26,7 @@ cd GeneRAG
 pip install -e .
 ```
 
-## GeneRAG: A Retrieval-Augmented Generation System for Gene Function Analysis
+## Tutorial
 
 
 ```python
