@@ -20,7 +20,7 @@ pip install -e .
 
 ## Tutorial
 
-### Using GeneRAG
+## Using GeneRAG
 
 ```python
 from generag import GeneRAG, Config
@@ -53,11 +53,11 @@ display(Markdown(response))
 ```
 
 
-## **THBS2 in Colorectal Cancer (CRC): Oncogenic Role and Clinical Significance**  
+### **THBS2 in Colorectal Cancer (CRC): Oncogenic Role and Clinical Significance**  
 
 **Thrombospondin-2 (THBS2)** is a matricellular glycoprotein involved in extracellular matrix (ECM) remodeling, angiogenesis, and cancer progression. In colorectal cancer (CRC), THBS2 has emerged as a critical player with **pro-tumorigenic effects**, influencing proliferation, invasion, metastasis, and prognosis.  
 
-### **Key Findings on THBS2 in CRC**  
+#### **Key Findings on THBS2 in CRC**  
 
 1. **Overexpression and Poor Prognosis**  
    - THBS2 is significantly upregulated in CRC tissues and cell lines compared to normal controls [5][6][9].  
@@ -79,15 +79,15 @@ display(Markdown(response))
    - THBS2 may serve as a **biomarker** for early CRC detection and prognosis prediction [8][9].  
    - Targeting THBS2 or its regulatory axis (e.g., **miR-584-5p/THBS2**) could offer novel therapeutic strategies [2][5].  
 
-### **Contradictory Roles in Other Cancers**  
+#### **Contradictory Roles in Other Cancers**  
 While THBS2 acts as an **oncogene in CRC**, it exhibits **tumor-suppressive effects** in gastric cancer (GC) and ovarian cancer, where its downregulation is associated with poor outcomes [3][23]. This highlights its **context-dependent role** in cancer biology.  
 
-### **Conclusion**  
+#### **Conclusion**  
 THBS2 is a **critical regulator of CRC progression**, influencing tumor growth, metastasis, and immune evasion. Its overexpression correlates with **aggressive disease and poor survival**, making it a promising **prognostic marker and therapeutic target** in CRC.  
 
 ---
 
-### **References**  
+#### **References**  
 [2] Circ_0079530 promotes NSCLC progression via miR-584-5p/THBS2 axis - https://pubmed.ncbi.nlm.nih.gov/36382967  
 [3] THBS2 inhibits proliferation and angiogenesis in gastric cancer - https://pubmed.ncbi.nlm.nih.gov/25262009  
 [5] THBS2 promotes CRC via Wnt/β-catenin signaling - https://pubmed.ncbi.nlm.nih.gov/35315209  
@@ -97,7 +97,7 @@ THBS2 is a **critical regulator of CRC progression**, influencing tumor growth, 
 [23] THBS2 methylation in ovarian cancer - https://pubmed.ncbi.nlm.nih.gov/18955754
 
 
-### Directly Using DeepSeek
+## Directly Using DeepSeek
 
 ```python
 # Perform DeepSeek query
@@ -113,7 +113,7 @@ display(Markdown(ds_response))
 
 **THBS2 (Thrombospondin-2)** is an extracellular matrix glycoprotein involved in cell adhesion, angiogenesis, and tumor progression. In **colorectal cancer (CRC)**, THBS2 has emerged as a potential biomarker and therapeutic target due to its roles in tumorigenesis and metastasis. Here’s a breakdown of its significance:
 
-### **1. Role in Colorectal Cancer:**
+#### **1. Role in Colorectal Cancer:**
 - **Overexpression in CRC:** THBS2 is frequently upregulated in colorectal cancer tissues compared to normal mucosa, particularly in advanced stages and metastatic disease.
 - **Pro-Tumorigenic Effects:**  
   - Promotes **tumor growth, invasion, and metastasis** by modulating extracellular matrix (ECM) remodeling.  
@@ -121,19 +121,19 @@ display(Markdown(ds_response))
   - Interacts with **TGF-β signaling**, contributing to epithelial-mesenchymal transition (EMT) and cancer cell migration.  
 - **Immune Modulation:** May influence the tumor microenvironment by regulating immune cell infiltration.
 
-### **2. Diagnostic and Prognostic Biomarker:**
+#### **2. Diagnostic and Prognostic Biomarker:**
 - **Early Detection:** THBS2 shows promise as a **non-invasive biomarker** for CRC when detected in blood or stool, potentially aiding early diagnosis.  
 - **Poor Prognosis:** High THBS2 expression correlates with **worse survival**, lymph node metastasis, and chemoresistance.  
 
-### **3. Therapeutic Implications:**
+#### **3. Therapeutic Implications:**
 - **Targeting THBS2** (e.g., via antibodies or inhibitors) could disrupt tumor-stroma interactions and metastasis.  
 - **Combination Therapy:** May enhance efficacy of existing treatments like chemotherapy or immunotherapy.  
 
-### **4. Research Highlights:**
+#### **4. Research Highlights:**
 - Studies suggest THBS2 promotes CRC progression via **Wnt/β-catenin** and **PI3K/AKT pathways**.  
 - Its detection in **liquid biopsies** (e.g., serum or stool DNA tests) is being explored for clinical use.  
 
-### **Conclusion:**  
+#### **Conclusion:**  
 THBS2 is a multifunctional protein in CRC, driving tumor aggressiveness and serving as a potential biomarker for early diagnosis and prognosis. Further research is needed to validate its clinical utility and therapeutic targeting.  
 
 Would you like details on specific studies or mechanisms?
@@ -146,33 +146,33 @@ display(Markdown(response))
 ```
 
 
-## The Relationship Between TGFβ and THBS2  
+### The Relationship Between TGFβ and THBS2  
 
 Thrombospondin-2 (THBS2) is a matricellular glycoprotein involved in extracellular matrix (ECM) remodeling, angiogenesis, and fibrosis. Its interaction with **transforming growth factor-beta (TGFβ)** is critical in multiple pathological and physiological processes, including cancer progression, fibrosis, and inflammation. Below is a synthesis of key findings on their relationship:  
 
-### **1. TGFβ Upregulates THBS2 in Fibrosis and Cancer**  
+#### **1. TGFβ Upregulates THBS2 in Fibrosis and Cancer**  
 - In **non-alcoholic fatty liver disease (NAFLD)**, TGFβ activation in hepatic stellate cells (HSCs) increases **THBS2** expression independently of the canonical **TGFβ-SMAD2/3 pathway**, promoting collagen deposition and fibrosis [5].  
 - THBS2 knockdown reduces collagen expression, suggesting its role as a downstream effector of TGFβ-driven fibrogenesis [5].  
 - In **colorectal cancer (CRC)**, THBS2 overexpression correlates with poor prognosis and activates the **Wnt/β-catenin pathway**, which is often modulated by TGFβ signaling [16].  
 
-### **2. THBS2 as a Mediator of TGFβ’s Pro-Tumorigenic Effects**  
+#### **2. THBS2 as a Mediator of TGFβ’s Pro-Tumorigenic Effects**  
 - THBS2 is overexpressed in **non-small cell lung cancer (NSCLC)** and **pancreatic ductal adenocarcinoma (PDAC)**, where it enhances tumor progression and metastasis [9, 17].  
 - In **intrahepatic cholangiocarcinoma (iCCA)**, THBS2 (along with THBS1) promotes tumor cell invasion and mesenchymal transition, likely synergizing with TGFβ-induced EMT [20].  
 - THBS2’s pro-metastatic effects in **uveal melanoma (UM)** involve **PI3K/AKT pathway** activation, a pathway also regulated by TGFβ [8, 18].  
 
-### **3. THBS2 in TGFβ-Associated Angiogenesis and ECM Remodeling**  
+#### **3. THBS2 in TGFβ-Associated Angiogenesis and ECM Remodeling**  
 - THBS2 regulates **MMP2 clearance**, and its loss-of-function leads to ECM abnormalities, mimicking TGFβ-driven ECM dysregulation [6].  
 - In **gastric cancer (GC)**, THBS2 suppresses angiogenesis by inhibiting endothelial cell proliferation, countering TGFβ’s pro-angiogenic effects in some contexts [12, 24].  
 
-### **4. Clinical Implications**  
+#### **4. Clinical Implications**  
 - **Diagnostic Biomarker**: Serum THBS2, combined with CA19-9, detects PDAC with **87% sensitivity and 98% specificity** [3, 17].  
 - **Therapeutic Target**: THBS2 inhibition may mitigate fibrosis in NAFLD [5] or block metastasis in CRC and NSCLC [9, 16].  
 
-### **Conclusion**  
+#### **Conclusion**  
 THBS2 is a multifunctional effector of TGFβ signaling, influencing fibrosis, cancer progression, and angiogenesis. Its context-dependent roles (pro- or anti-tumorigenic) highlight its potential as a biomarker and therapeutic target in TGFβ-associated diseases.  
 
 ---  
-### **References**  
+#### **References**  
 [3] THBS2 as a biomarker for PDAC - https://pubmed.ncbi.nlm.nih.gov/pubmed/28739842  
 [5] TGFβ-THBS2 axis in NAFLD fibrosis - https://pubmed.ncbi.nlm.nih.gov/pubmed/38010940  
 [6] THBS2 and ECM regulation - https://pubmed.ncbi.nlm.nih.gov/pubmed/38433265  
