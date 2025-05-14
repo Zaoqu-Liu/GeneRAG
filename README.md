@@ -35,9 +35,9 @@ import requests
 from IPython.display import Markdown, display
 
 # Global Configuration
-API_KEY = "sk-94e47466066143a7a63f010653806ec3"
-DB_DIR = "/Users/liuzaoqu/Desktop/OmicSeek/GeneReview_XHx2C/vector_db"
-CITATION_DIR = "/Users/liuzaoqu/Desktop/OmicSeek/GeneReview_XHx2C/cite"
+API_KEY = "sk-xxx"
+DB_DIR = "xxx/vector_db"
+CITATION_DIR = "xxx/cite"
 
 config = Config(
     api_key=API_KEY,
