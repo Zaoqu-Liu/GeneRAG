@@ -20,6 +20,7 @@ pip install -e .
 
 ## Tutorial
 
+### Using GeneRAG
 
 ```python
 from generag import GeneRAG, Config
@@ -96,6 +97,7 @@ THBS2 is a **critical regulator of CRC progression**, influencing tumor growth, 
 [23] THBS2 methylation in ovarian cancer - https://pubmed.ncbi.nlm.nih.gov/18955754
 
 
+### Directly Using DeepSeek
 
 ```python
 # Perform DeepSeek query
@@ -136,7 +138,7 @@ THBS2 is a multifunctional protein in CRC, driving tumor aggressiveness and serv
 
 Would you like details on specific studies or mechanisms?
 
-
+## When focusing on more genes
 
 ```python
 response = rag.process_query("The relationships of TGFbeta and THBS2?")
